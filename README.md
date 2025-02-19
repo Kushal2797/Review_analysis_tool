@@ -67,6 +67,7 @@ cat script.log
 ## 🛠️ Assumptions & Known Issues
 ### **Assumptions**
 - Input JSON file contains a `body` field with customer reviews.
+- For generic reviews delight attributes are tagged as 'General'
 - OpenAI API is available and responsive.
 
 ### **Potential Issues**
