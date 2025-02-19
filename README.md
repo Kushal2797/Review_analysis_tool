@@ -1,5 +1,4 @@
-# Review_analysis_tool
-# CLI Review Analysis Tool
+# Customer Review Analysis Tool
 
 ## 📌 Overview
 This tool extracts customer delight attributes from product reviews and ranks them. It helps businesses understand what customers love about their products by analyzing customer feedback.
@@ -7,8 +6,8 @@ This tool extracts customer delight attributes from product reviews and ranks th
 ## 🛠️ Installation
 ### 1️⃣ **Clone the Repository**
 ```bash
-git clone https://github.com/your-username/repository-name.git
-cd repository-name
+git clone https://github.com/Kushal2797/Review_analysis_tool.git
+cd Review_analysis_tool
 ```
 
 ### 2️⃣ **Install Dependencies**
@@ -25,26 +24,12 @@ pip install -r requirements.txt
    ```
 3. The script will automatically read this key.
 
-#### **Option 2: Set API Key as an Environment Variable**
-##### **Linux/Mac**
-```bash
-export OPENAI_API_KEY="your-api-key-here"
-```
-##### **Windows (Command Prompt)**
-```cmd
-set OPENAI_API_KEY=your-api-key-here
-```
-##### **Windows (PowerShell)**
-```powershell
-$env:OPENAI_API_KEY="your-api-key-here"
-```
-
 ---
 
 ## 🚀 Usage
 To run the CLI tool, use:
 ```bash
-python cli_review_analysis.py reviews.json output.json output.csv
+python review_analysis.py reviews.json output.json output.csv
 ```
 ### **Arguments:**
 - `reviews.json` → Input file containing customer reviews.
@@ -53,32 +38,14 @@ python cli_review_analysis.py reviews.json output.json output.csv
 
 ### **Example Command:**
 ```bash
-python cli_review_analysis.py sample_reviews.json extracted_reviews.json delight_attributes.csv
+python review_analysis.py sample_reviews.json extracted_reviews.json delight_attributes.csv
 ```
-
----
-
-## ✅ Evaluation
-This tool includes an evaluation module to compare extracted vs. expected attributes.
-
-### **Running Evaluation**
-```bash
-python evaluate.py ground_truth.csv output.json
-```
-
-### **Expected Files:**
-- **Ground Truth (`ground_truth.csv`)** → Contains manually labeled delight attributes.
-- **Extracted Output (`output.json`)** → The extracted attributes from the script.
-
-### **Evaluation Metrics Used:**
-- **Precision, Recall, and F1-score** to measure accuracy.
 
 ---
 
 ## 📂 File Structure
 ```
-├── cli_review_analysis.py  # Main script for extracting delight attributes
-├── evaluate.py             # Evaluation script
+├── review_analysis.py      # Main script for extracting delight attributes
 ├── reviews.json            # Sample input file
 ├── output.json             # Extracted attributes
 ├── output.csv              # Ranked delight attributes
@@ -106,11 +73,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-## 🤝 Contributing
-Feel free to submit pull requests or report issues on [GitHub](https://github.com/your-username/repository-name/issues).
-
----
-
 ## 📞 Contact
-For support, please contact [your-email@example.com](mailto:your-email@example.com).
+For support, please contact [kushalshah662@example.com](mailto:your-email@example.com).
 
