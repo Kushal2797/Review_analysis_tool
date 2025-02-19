@@ -68,11 +68,6 @@ python review_analysis.py sample_reviews.json extracted_reviews.json delight_att
 
 ---
 
-## 📝 License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
----
-
 ## 📞 Contact
 For support, please contact [kushalshah662@example.com](mailto:your-email@example.com).
 
