@@ -40,7 +40,13 @@ python review_analysis.py reviews.json output.json output.csv
 ```bash
 python review_analysis.py sample_reviews.json extracted_reviews.json delight_attributes.csv
 ```
+## 📜 Logging Information
 
+The tool generates a **log file (`script.log`)** that records processing details and errors. If something goes wrong, check the log for debugging:
+
+```bash
+cat script.log
+```
 ---
 
 ## 📂 File Structure
@@ -49,6 +55,7 @@ python review_analysis.py sample_reviews.json extracted_reviews.json delight_att
 ├── reviews.json            # Sample input file
 ├── output.json             # Extracted attributes
 ├── output.csv              # Ranked delight attributes
+├── script.log              # Log file for debuggi
 ├── requirements.txt        # Dependencies list
 ├── .env                    # API key (ignored in Git)
 ├── README.md               # Documentation
@@ -70,4 +77,3 @@ python review_analysis.py sample_reviews.json extracted_reviews.json delight_att
 
 ## 📞 Contact
 For support, please contact [kushalshah662@example.com](mailto:your-email@example.com).
-
