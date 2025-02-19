@@ -40,6 +40,7 @@ python review_analysis.py reviews.json output.json output.csv
 ```bash
 python review_analysis.py sample_reviews.json extracted_reviews.json delight_attributes.csv
 ```
+---
 ## 📜 Logging Information
 
 The tool generates a **log file (`script.log`)** that records processing details and errors. If something goes wrong, check the log for debugging:
